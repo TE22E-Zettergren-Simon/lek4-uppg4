@@ -11,8 +11,13 @@ body {
 }
 
 header {
+	padding-top: 32px;
 	color: white;
 	background-color: #35424a;
+}
+
+header h1 {
+	margin-bottom: 8px;
 }
 
 nav {
@@ -35,6 +40,7 @@ nav a {
 }
 
 .introduktion {
+	padding-bottom: 64px;
 	color: white;
 	background-image: url(./img/showcase.jpg);
 	background-size: cover;
@@ -42,10 +48,22 @@ nav a {
 	border-style: solid none;
 }
 
+.introduktion h1 {
+	font-size: 3rem;
+}
+
+.introduktion p {
+	padding: 0 32px;
+}
+
 .nyhetsbrev {
 	color: white;
 	background-color: #35424a;
 	border-bottom: 3px solid #e8491d;
+}
+
+article {
+	padding: 24px 0;
 }
 
 footer {
